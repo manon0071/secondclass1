@@ -1,0 +1,79 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+/* body css */
+body {
+	font-family: 'Roboto', sans-serif;
+	background: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.container {
+    width: 550px;
+    margin: 10% auto;
+}
+
+.login-section {
+
+	background-color: darkcyan;
+
+	padding: 40px;
+}
+
+.login-section img{
+
+	margin: 0 auto;
+
+	display: block;
+}
+
+.login-section h3{
+
+	text-align: center;
+
+	color: #fff;
+
+	font-size: 35px;
+
+	text-transform: capitalize;
+}
+
+.form-control {
+
+	width: 97%;
+
+	height: 25px;
+
+	padding: 5px;
+
+	margin-bottom: 10px;
+}
+
+.btn {
+	
+	margin: 0 auto;
+		
+	display: block;
+		
+	background: darkred;
+		
+	padding: 6px 15px;
+		
+	color: #fff;
+		
+	border: none;
+		
+	text-transform: uppercase;
+	transition: 0.8s ease;
+}
+
+.btn:hover{
+	box-shadow: 1px 2px 4px #fff;
+	cursor: pointer;
+}
+
+
